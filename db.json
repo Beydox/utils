@@ -1,0 +1,23 @@
+{
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 },
+    { "id": "3", "title": "a third title", "views": 300 },
+    { "id": "4", "title": "more about something", "views": 400 },
+    { "id": "5", "title": "yet another post", "views": 500 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" },
+    { "id": "3", "text": "a comment about post 2", "postId": "2" },
+    { "id": "4", "text": "another comment about post 2", "postId": "2" },
+    { "id": "5", "text": "a comment about post 3", "postId": "3" },
+    { "id": "6", "text": "additional comment about post 4", "postId": "4" },
+    { "id": "7", "text": "yet another comment", "postId": "5" }
+  ],
+  "profile": {
+    "name": "typicode",
+    "role": "admin",
+    "email": "typicode@example.com"
+  }
+}
